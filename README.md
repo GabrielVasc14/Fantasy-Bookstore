@@ -63,26 +63,44 @@ Senha: 123456
 Funcionalidades do Projeto
 
 . Listagem de livros em formato card
+
 . Filtros por: titulo, autor, preço minimo e maximo
+
 . Wishlist com AJAX
+
 . Carrinho de compras
+
 . Integração com Google Books API (admin)
+
 . Paginação com botão de mostrar mais
+
 . 4 CRUDS para criação de Cupons, Livros (caso nao queria usar a API), Recompenças e Desafios (admin)
+
 . Historico de compras
+
 . Check de compras (apenas uma simulação onde ao colocar oque pede, ira apenas apertar um botão para "Pagar")
+
 . Recomendações de livros por diversas formas
+
 . Forma de comprar (e como admin adicionar) audioBook e Ebook
+
 . Historico de cupons usados no perfil
+
 . Chat ao vivo usando Tawk.to
+
 . Avaliações e comentarios em livros
+
 e mais.
+
 
 Scripts e extras
 
 . Uso de toastr.js para notificações visualemnte melhores
+
 . Requisições AJAX para Wishlist e filtro
+
 . Validação e interações com SweetAlert
+
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -157,22 +175,38 @@ Password: 123456
 Features
 
 . Book listing in card format
+
 . Filtering by title, author, category, and price range
+
 . Wishlist system using AJAX
+
 . Shopping cart
+
 . Google Books API integration (admin only)
+
 . Pagination with "Show More" button
 . 4 CRUDs: Coupons, Books (manual input), Rewards, and Challenges (admin only)
+
 . Purchase history
+
 . Checkout simulation
+
 . Book recommendations through different criteria
+
 . Ability to buy and manage audiobooks and eBooks
+
 . User coupon history
+
 . Live chat using Tawk.to
+
 . Book reviews and comments
+
 
 Extras
 
 . Visual notifications with Toastr.js
+
 . AJAX requests for filtering and wishlist actions
+
 . SweetAlert for enhanced interactivity and alerts
+
