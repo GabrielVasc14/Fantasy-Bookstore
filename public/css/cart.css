@@ -1,0 +1,354 @@
+/* Estilo para o botão de alternar entre modos */
+#theme-toggle-btn {
+    background-color: transparent;
+    border: 2px solid #17a2b8;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+#theme-toggle-btn:hover {
+    background-color: #17a2b8;
+    border-color: #0056b3;
+}
+
+#theme-toggle-btn i {
+    color: #e0e0e0;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Modo escuro - ícone */
+body.dark-mode #theme-toggle-btn i {
+    color: #e0e0e0;
+}
+
+/* Modo escuro - background e borda do botão */
+body.dark-mode #theme-toggle-btn {
+    border-color: #e0e0e0;
+}
+
+/* Customização de cores e fontes */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar */
+.navbar-light {
+    background-color: rgba(225, 231, 238, 0.9);
+    border-bottom: 2px solid #0056b3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Modo Escuro - Navbar */
+body.dark-mode .navbar-light {
+    background-color: #222;
+    border-bottom: 2px solid #17a2b8;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link:hover {
+    color: #bbb;
+}
+
+body.dark-mode .navbar-light .navbar-brand {
+    color: #e0e0e0;
+}
+
+/* Botões */
+.btn-outline-info {
+    border-color: #17a2b8;
+    color: #17a2b8;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Modo Escuro - Botões */
+body.dark-mode .btn-outline-info {
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+body.dark-mode .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Modo Escuro - Botões Danger */
+body.dark-mode .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+body.dark-mode .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Dropdown do Carrinho */
+.dropdown-menu {
+    width: 300px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.cart-detail img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.cart-detail-book {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Modo Escuro - Dropdown */
+body.dark-mode .dropdown-menu {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .cart-detail-book {
+    color: #e0e0e0;
+}
+
+/* Alertas */
+.alert-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Modo Escuro - Alertas */
+body.dark-mode .alert-success {
+    background-color: #218838;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Modo Escuro - Cards */
+body.dark-mode .card {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card:hover {
+    background-color: #3e3e3e;
+}
+
+/* Ajuste de layout */
+.container {
+    max-width: 1100px;
+}
+
+/* Modo Escuro - Container */
+body.dark-mode .container {
+    background-color: #222;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+
+/* Modo Escuro - Responsivo */
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-info {
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+body.dark-mode .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+body.dark-mode .dropdown-menu {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+/* Tabela de Carrinho */
+.table {
+    background-color: #fff;
+    color: #343a40;
+}
+
+body.dark-mode .table {
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+body.dark-mode .table thead th {
+    background-color: #555;
+    color: #e0e0e0;
+}
+
+.table tfoot td {
+    color: #343a40;
+}
+
+body.dark-mode .table tfoot td {
+    color: #e0e0e0;
+}
+
+/* Cores para inputs */
+input[type="number"] {
+    background-color: #fff;
+    color: #343a40;
+}
+
+body.dark-mode input[type="number"] {
+    background-color: #555;
+    color: #e0e0e0;
+}
+
+/* Cores da borda e do fundo do botão de "Atualizar Carrinho" */
+.quantity {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+body.dark-mode .quantity {
+    background-color: #666;
+    border: 1px solid #888;
+}
+
+.star-rating {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #ffca08;
+}
+
+.star-rating input:checked ~ label {
+    color: #ffca08;
+}
+
+.profile-banner {
+  width: 100%;
+  height: 200px;             /* altura do banner */
+  overflow: hidden;
+}
+
+/* essa div terá o background */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* wrapper do avatar para posicionar */
+.avatar-wrapper {
+  position: absolute;
+  bottom: -40px;             /* metade da altura do avatar pra sobrepor */
+  left: 30px;                /* ajuste horizontal */
+}
+
+/* tamanho do avatar */
+.avatar-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}

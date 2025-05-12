@@ -1,0 +1,129 @@
+/* === Base geral === */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Navbar === */
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dce3ea;
+    text-decoration: underline;
+}
+
+/* === Footer === */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* === Container principal === */
+main.container {
+    max-width: 1100px;
+    padding: 2rem 1rem;
+}
+
+/* === Cabeçalho de seção === */
+.section-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+/* === Cartões (Cards) === */
+.card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card-header {
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* === Formulários === */
+label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0d6efd;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+}
+
+.card .btn {
+    margin-top: 1rem;
+}
+
+/* === Responsividade === */
+@media (max-width: 768px) {
+    .section-header {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+/* === Animação fadeIn === */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
