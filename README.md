@@ -88,7 +88,7 @@ Scripts e extras
 
 # Bookstore (English)
 
-# 📚 Bookstore - Laravel Project
+# Bookstore - Laravel Project
 
 Hi! My name is João Gabriel. I'm a junior developer and during my learning journey at my internship, I built this project using Laravel. It was one of my first full projects — I had help from senior developers and online tutorials.
 
@@ -96,7 +96,7 @@ This is a book management system that allows users to view, filter, and add book
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - PHP 8.x  
 - Laravel 10.x  
@@ -113,7 +113,7 @@ This is a book management system that allows users to view, filter, and add book
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository and run the following commands:
 
