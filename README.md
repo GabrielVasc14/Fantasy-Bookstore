@@ -32,7 +32,7 @@ cp .env.example .env
 php artisan key:generate
 ````
 
-Configure seu .env
+# Configure seu .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -41,15 +41,15 @@ DB_DATABASE= database/database.sqlite
 DB_USERNAME= root
 DB_PASSWORD=
 
-Faça as migrações
+# Faça as migrações
 
 php artisan migrate --seed
 
-Inicie o Servidor
+# Inicie o Servidor
 
 php artisan serve
 
-Usuarios de teste
+# Usuarios de teste
 
 Admin:
 Email: admin@gmail.com
@@ -60,7 +60,7 @@ Email: user@gmail.com
 Senha: 123456
 
 
-Funcionalidades do Projeto
+## Funcionalidades do Projeto
 
 . Listagem de livros em formato card
 
@@ -93,7 +93,7 @@ Funcionalidades do Projeto
 e mais.
 
 
-Scripts e extras
+## Scripts e extras
 
 . Uso de toastr.js para notificações visualemnte melhores
 
@@ -112,8 +112,6 @@ Hi! My name is João Gabriel. I'm a junior developer and during my learning jour
 
 This is a book management system that allows users to view, filter, and add books to the cart, as well as manage their wishlist, access recommendations, and more.
 
----
-
 ## Technologies Used
 
 - PHP 8.x  
@@ -129,8 +127,6 @@ This is a book management system that allows users to view, filter, and add book
 - Google Books API  
 - Tawk.to (Live Chat)
 
----
-
 ## Getting Started
 
 Clone the repository and run the following commands:
@@ -143,7 +139,7 @@ cp .env.example .env
 php artisan key:generate
 ````
 
-Setup your .env
+# Setup your .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -152,16 +148,15 @@ DB_DATABASE= database/database.sqlite
 DB_USERNAME= root
 DB_PASSWORD=
 
-Make the migrations
+# Make the migrations
 
 php artisan migrate --seed
 
-Start the server
+# Start the server
 
 php artisan serve
 
-
-Test users
+# Test users
 
 Admin:
 Email: admin@gmail.com
@@ -172,7 +167,7 @@ Email: user@gmail.com
 Password: 123456
 
 
-Features
+## Features
 
 . Book listing in card format
 
@@ -202,7 +197,7 @@ Features
 . Book reviews and comments
 
 
-Extras
+## Extras
 
 . Visual notifications with Toastr.js
 
