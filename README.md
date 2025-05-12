@@ -32,7 +32,7 @@ cp .env.example .env
 php artisan key:generate
 ````
 
-# Configure seu .env
+## Configure seu .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -41,15 +41,15 @@ DB_DATABASE= database/database.sqlite
 DB_USERNAME= root
 DB_PASSWORD=
 
-# Faça as migrações
+## Faça as migrações
 
 php artisan migrate --seed
 
-# Inicie o Servidor
+## Inicie o Servidor
 
 php artisan serve
 
-# Usuarios de teste
+## Usuarios de teste
 
 Admin:
 Email: admin@gmail.com
@@ -139,7 +139,7 @@ cp .env.example .env
 php artisan key:generate
 ````
 
-# Setup your .env
+## Setup your .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -148,7 +148,7 @@ DB_DATABASE= database/database.sqlite
 DB_USERNAME= root
 DB_PASSWORD=
 
-# Make the migrations
+## Make the migrations
 
 php artisan migrate --seed
 
@@ -156,7 +156,7 @@ php artisan migrate --seed
 
 php artisan serve
 
-# Test users
+## Test users
 
 Admin:
 Email: admin@gmail.com
